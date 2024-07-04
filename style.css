@@ -167,11 +167,17 @@
 .signin-block a{
     color: #097689;
 }
+.lower-hero{
+    background-color:#f2ebd7;
+    width: 100%;
+
+}
 .box-part{
     display: flex;
     justify-content: space-around;
     background-color:#f2ebd7;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 .box{
     height: 400px;
@@ -225,4 +231,6 @@
     display: flex;
     position: relative;
     left: 14px;
+    top:5px;
+    background-position-x: -50px;
 }
