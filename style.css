@@ -1,0 +1,138 @@
+/* https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-2x-reorg-privacy._CB587940754_.png */
+*{
+    margin: 0px ;
+    font-family:Arial, Helvetica, sans-serif;
+    border: border-box;/* so that border area will count in element's heigth and width. It is a good practice so that we can measure the space. If border area or padding increasses then automatically content size should decrease. It is a very good practice to use it in major projects.*/
+
+}
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;/*to make all contents at centre*/
+    justify-content: space-evenly;
+    
+}
+.nav-logo{
+    height: 50px;
+    width: 120px;/* so that border can display. Because it is using border box property so border size will be counted in content width and height*/
+    overflow: hidden;/*it overhides all the extra part from this nav-logo box*/
+    margin: 3px 10px;
+}
+.logo{
+    height: 500px;
+    width: 100%;
+    background-image: url(https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-2x-reorg-privacy._CB587940754_.png);
+    background-position-y: -40px;
+    background-size: 370px;
+    background-repeat: no-repeat;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+    border-radius: 2px;
+}
+/* box-2 */
+
+.address-first{
+    font-size: 0.75rem;
+    color: #cccccc;
+    margin-left: 15px;
+}
+.address-second{
+    font-size: 1rem;
+    color: #ffffff;
+    margin-left: 3px;
+}
+.add-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-address{
+    padding: 5px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+/* Box-3 */
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    border-radius: 5px;
+    width: 620px;
+    height:40px;
+}
+.search-select{
+    background-color: #e6e6e6;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+.input-search{
+    width:100%; /* the size left after select and magnifying glass. all rest space is given to input */
+    font-size: 1rem;
+    border:none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd69;
+    font-size: 1.2rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0F1111;
+}
+/* box-4,5 */
+.upper-part{
+    font-size: 0.75rem;
+}
+.lower-part{
+    font-size: 0.9rem;
+}
+.boxes{
+    padding: 7px 9px;
+}
+/* box-6 */
+.nav-cart{
+    font-size: 0.9rem;
+    font-weight: bolder;
+    display: flex;
+    align-items: baseline;
+    padding: 5px;
+}
+.cart{
+    margin-left: 2px;
+    margin-top: 10px;
+}
+
+/* lower-nav */
+.lower-nav{
+    height: 40px;
+    background-color: #232f3e;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+}
+.all{
+    margin-right: 20px;
+    margin-left: 50px;
+    font-weight: bolder;
+}
+.option{
+    display: flex;
+}
+.option p{
+    margin-right: 25px;
+
+}
